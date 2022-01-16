@@ -5,7 +5,7 @@ body {
 .nav {
   display: flex;
   height: 75px;
-  min-width: 375px;
+  min-width: 200px;
   background-color: #1d97af;
 }
 
@@ -53,6 +53,7 @@ body {
   color: white;
   -webkit-text-stroke: 2px #ffffff;
   text-shadow: 2px 3px 5px black;
+  margin-left: 1%;
 }
 
 .info {
@@ -79,4 +80,102 @@ body {
 .hacker2 {
   width: 120px;
   height: 120px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 271px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.serviceimg {
+  height: 100px;
+  width: 100px;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.contact,
+form {
+  background-color: #444444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e0e0e0;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2% 0px;
+}
+
+input {
+  width: 98%;
+}
+
+.send {
+  width: 260px;
+  height: 30px;
+  border: none;
+  background-color: #1d97af;
+  color: #ffffff;
+  font-weight: 900;
+
+  margin-bottom: 3.5%;
+}
+
+.footer {
+  height: 493px;
+  padding-top: 75px;
+  padding-left: 40px;
+}
+
+.logo-footer {
+  height: 80px;
+  width: 80px;
+}
+
+.upper-footer {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.lower-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.redset {
+  display: flex;
+}
+
+.img-footer {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  margin-right: 7px;
+}
+
+.footer-p {
+  font-style: italic;
+  font-size: 18px;
 }
