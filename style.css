@@ -290,7 +290,8 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10%;
+    padding: 100px 100px;
+    height: auto;
   }
 
   .upper-footer {
