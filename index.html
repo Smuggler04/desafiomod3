@@ -19,6 +19,9 @@
         <img class="logo" src="./images/shield_white.png" alt="logo" />
       </div>
       <div class="nav-right">
+        <button class="menu-option">Quien Soy</button>
+        <button class="menu-option">Servicios</button>
+        <button class="menu-option">Escribime</button>
         <img class="burger" src="./images/burger.png" alt="menu" />
       </div>
     </nav>
@@ -30,49 +33,51 @@
       <div class="info-element">
         <h2 class="h2">Soy Santiago Surt</h2>
         <p class="info-paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-          eveniet odio aperiam at, sequi sint eaque minima expedita labore
-          eligendi doloremque unde? Dolore reiciendis ex quo mollitia voluptatum
-          dolor facere. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Impedit iure neque assumenda deleniti aut? Dicta odio quidem porro
-          temporibus ad nisi cumque recusandae nostrum maiores, consectetur
-          consequuntur mollitia laudantium voluptate!
+          Desarrollador Web FullStack y apasionado de la Cyber-Seguridad, con
+          mas de 3 años trabajando en el sector tecnologia con marcas
+          reconocidas a nivel mundial como Dell, Cisco, Palo Alto, VMware y
+          Meraki
         </p>
       </div>
       <img class="hacker2" src="./images/hacker2.png" alt="hacker2" />
     </div>
     <div class="services">
       <h2 class="title">Servicios</h2>
-      <article class="article">
-        <img class="serviceimg" src="./images/code.png" alt="" />
-        <h3 class="article-title">este servicio</h3>
-        <p class="article-paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-          voluptatibus recusandae esse sunt maiores consequuntur cum. A vitae
-          suscipit deleniti fugiat itaque quidem cupiditate error ducimus
-          commodi exercitationem, sit nihil?
-        </p>
-      </article>
-      <article class="article">
-        <img class="serviceimg" src="./images/code.png" alt="" />
-        <h3 class="article-title">este otro servicio</h3>
-        <p class="article-paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-          voluptatibus recusandae esse sunt maiores consequuntur cum. A vitae
-          suscipit deleniti fugiat itaque quidem cupiditate error ducimus
-          commodi exercitationem, sit nihil?
-        </p>
-      </article>
-      <article class="article">
-        <img class="serviceimg" src="./images/code.png" alt="" />
-        <h3 class="article-title">este otro servicio</h3>
-        <p class="article-paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-          voluptatibus recusandae esse sunt maiores consequuntur cum. A vitae
-          suscipit deleniti fugiat itaque quidem cupiditate error ducimus
-          commodi exercitationem, sit nihil?
-        </p>
-      </article>
+      <div class="services-container">
+        <article class="article">
+          <img class="serviceimg" src="./images/code.png" alt="" />
+          <h3 class="article-title">Pentesting</h3>
+          <p class="article-paragraph">
+            En simples palabras vamos a hackearte <br /><br />
+            Pero tranquilo cuando terminemos el hackeo te diremos que acciones
+            tomar para que no suceda y tengas protegido tu asset mas valioso:
+            informacion.
+          </p>
+        </article>
+        <article class="article">
+          <img class="serviceimg" src="./images/code.png" alt="" />
+          <h3 class="article-title">Desarrollo Web</h3>
+          <p class="article-paragraph">
+            Tenes una idea? queres plasmarla en la Web y llegar a todos tus
+            clientes? <br /><br />
+            Trabajamos con las tecnologias de punta, webs responsive utilizando
+            metodos de diseño mobile first totalmente nativa utilizando HTML,
+            CSS y JavaScript
+          </p>
+        </article>
+        <article class="article">
+          <img class="serviceimg" src="./images/code.png" alt="" />
+          <h3 class="article-title">Asesoria soluciones tecnologias</h3>
+          <p class="article-paragraph">
+            Somos expertos en Tecnologia <br /><br />
+            trabajamos con marcas de primer nivel como Cisco, Dell, VMware,
+            Meraki, etc.
+            <br />
+            Podemos configurar soluciones de storage, virtualizacion, SD-Wan,
+            servidores, etc.
+          </p>
+        </article>
+      </div>
     </div>
     <div class="contact">
       <h2 class="title contact">Escribime</h2>
@@ -90,8 +95,8 @@
           <label for="message" class="data-ask">Mensaje</label>
           <textarea name="message" id="" cols="30" rows="10"></textarea>
         </div>
+        <button class="send">Enviar</button>
       </div>
-      <button class="send">Enviar</button>
     </div>
     <footer class="footer">
       <div class="upper-footer">
@@ -99,18 +104,36 @@
         <p class="signature">Santiago Surt 2022.</p>
       </div>
       <div class="lower-footer">
-        <div class="redset">
-          <img class="img-footer" src="./images/instagram.png" />
-          <p class="footer-p">Instagram</p>
-        </div>
-        <div class="redset">
-          <img class="img-footer" src="./images/linkedin.png" />
-          <p class="footer-p">LinkedIn</p>
-        </div>
-        <div class="redset">
-          <img class="img-footer" src="./images/github.png" />
-          <p class="footer-p">Github</p>
-        </div>
+        <a
+          class="footer-link"
+          href="https://www.instagram.com/santiagosurt/"
+          target="blank"
+        >
+          <div class="redset">
+            <img class="img-footer" src="./images/instagram.png" />
+            <p class="footer-p">Instagram</p>
+          </div>
+        </a>
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/santiago-surt-832343144/"
+          target="blank"
+        >
+          <div class="redset">
+            <img class="img-footer" src="./images/linkedin.png" />
+            <p class="footer-p">LinkedIn</p>
+          </div>
+        </a>
+        <a
+          href="https://github.com/Smuggler04"
+          class="footer-link"
+          target="blank"
+        >
+          <div class="redset">
+            <img class="img-footer" src="./images/github.png" />
+            <p class="footer-p">Github</p>
+          </div>
+        </a>
       </div>
     </footer>
   </body>
